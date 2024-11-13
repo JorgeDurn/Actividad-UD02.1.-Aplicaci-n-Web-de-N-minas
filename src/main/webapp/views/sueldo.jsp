@@ -84,13 +84,13 @@
             </c:if>
             <c:if test="${empty sueldoEmpleado}">
                 <tr>
-                    <td colspan="2">No se encontró el sueldo para el DNI ingresado.</td>
+                    <td colspan="2">No se encontrÃ³ el sueldo para el DNI ingresado.</td>
                 </tr>
             </c:if>
         </tbody>
     </table>
 
-    <a href="./Index.jsp">
+    <a href="/empresa/Index.jsp">
         <input type="button" value="Volver">
     </a>
 </body>
