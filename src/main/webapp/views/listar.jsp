@@ -50,8 +50,8 @@
             <th>DNI</th>
             <th>Nombre</th>
             <th>Sexo</th>
-            <th>Categoría</th>
-            <th>Años trabajados</th>
+            <th>CategorÃ­a</th>
+            <th>AÃ±os trabajados</th>
         </tr>
         <c:forEach var="empleado" items="${lista}">
         <tr>
@@ -60,10 +60,9 @@
             <td><c:out value="${ empleado.sexo}"></c:out></td>
             <td><c:out value="${ empleado.categoria}"></c:out></td>
             <td><c:out value="${ empleado.anyosTrabajados}"></c:out></td>
-            <td><c:out value="${ empleado.sueldo}"></c:out></td>
         </tr>
         </c:forEach>
     </table>
-    <a href="./Index.jsp">Volver</a>
+    <a href="/empresa/Index.jsp">Volver</a>
 </body>
 </html>
