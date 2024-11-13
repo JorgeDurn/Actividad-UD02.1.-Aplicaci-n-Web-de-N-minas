@@ -79,7 +79,7 @@
         </div>
         <div>
             <button type="submit">Guardar Cambios</button>
-            <a class="voler-btn" href="./Index.jsp"><input type="button" value="Volver"></a>
+            <a class="voler-btn" href="/empresa/Index.jsp"><input type="button" value="Volver"></a>
         </div>
     </form>
 </body>
